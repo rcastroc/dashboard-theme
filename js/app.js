@@ -23,8 +23,8 @@ angular.module('app', ['ngRoute','ui.bootstrap'])
     app.codigo_tableau = firstCode;
 
     app.indicadores = [
-                        {"nombre" : "Indicador #1", "tema" : "Socioeconómico", "codigo" : "MMXMF7QK9", "orden" : 1},
-                        {"nombre" : "Indicador #2", "tema" : "Socioeconómico", "codigo" : "8T6Z4JZ7S", "orden" : 1},
+                        {"nombre" : "test #1", "tema" : "Socioeconómico", "codigo" : "MMXMF7QK9", "orden" : 1},
+                        {"nombre" : "test #2", "tema" : "Socioeconómico", "codigo" : "8T6Z4JZ7S", "orden" : 1},
                         {"nombre" : "Indicador #1", "tema" : "Sistema de Salud", "codigo" : "MMXMF7QK9", "orden" : 2},
                         {"nombre" : "Indicador #2", "tema" : "Sistema de Salud", "codigo" : "8T6Z4JZ7S", "orden" : 1},
                         {"nombre" : "Indicador #3", "tema" : "Sistema de Salud", "codigo" : "HKH3RJSM7", "orden" : 3},
