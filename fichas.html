@@ -39,8 +39,7 @@
     jQuery(document).ready(function () {
 
         //uses source from online(make sure the file has CORS access enabled if used in cross domain)
-        var pdf = 'https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf';
-        pdf="example-assets/books/intro.pdf";
+        var pdf = "fichas.pdf";
         var options = {hard:'cover',webgl:false,height: 500, duration: 800, zoomRatio:2};
 
         flipBook = $("#flipbookContainer").flipBook(pdf, options);
