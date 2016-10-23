@@ -107,7 +107,7 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
-	/* background-color: #bbb; */
+	background-color: #f8f8f8;
 	filter: blur(0);
 	-webkit-filter: blur(0);
 	padding: 30px 50px 70px;
