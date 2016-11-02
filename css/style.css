@@ -38,7 +38,7 @@
     height: 100%;
     margin-left: -280px;
     overflow-y: auto;
-    background: #313131;
+    background: #e7e7e7;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -80,13 +80,13 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #848c94;
-    padding-left: 10px;
+    color: #595959;
+    padding-left: 7px;
 }
 
 .sidebar-nav li a:hover, .sidebar-nav li a.open{
     text-decoration: none;
-    color: #c0c4c8;
+    color: #858585;
 /*    background: rgba(255,255,255,0.2);*/
 }
 
@@ -160,18 +160,20 @@
 
 .sidebar-nav ul.sub-menu li a{
     padding-left: 10px;
-    border-left: 6px solid #313131;
+    border-left: 6px solid #e7e7e7;
+    line-height: 16px;
+    padding-bottom: 6px;
 }
 
 .sidebar-nav ul.sub-menu li.active a {
     border-left: 6px solid #c37e08;
-    color: #c0c4c8;
+    color: #0061a7;
 }
 
 .fa.menu{
     float: right;
     padding-top: 14px;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 
 .navbar .gobierno{
@@ -218,11 +220,13 @@
 }
 
 .sidebar-nav .nav-category {
-    color: #FFFFFF;
+    color: #595959;
     margin-top: 10px;
     margin: 10px;
     text-indent: 0px;
+    text-align: center;
     border-bottom: 1px solid #f37c72;
+/*    text-transform: uppercase;*/
 }
 
 .sidebar-nav .buscador input{
@@ -233,7 +237,7 @@
     border-image: initial;
     background: none;
     margin: 30px auto;
-    color: white;
+    color: #858585;
     width: 230px;
     border-radius: 0 !important;
     box-shadow: none !important; 
