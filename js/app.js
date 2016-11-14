@@ -1,5 +1,5 @@
 angular.module('app', ['ngRoute','ui.bootstrap'])
-.value('firstCode', 'MMXMF7QK9')
+.value('firstCode', '2QJK4WYMF')
 .config(function($routeProvider) {
    $routeProvider
     .when("/", {
@@ -68,6 +68,7 @@ angular.module('app', ['ngRoute','ui.bootstrap'])
                         {"nombre" : "Tasa de desocupación", "tema" : "Socioeconómico", "codigo" : "7MBTQGGFD", "orden" : 43},
                         {"nombre" : "Brecha escolaridad Hombre-Mujer", "tema" : "Socioeconómico", "codigo" : "YGP3KDT3Z", "orden" : 44},
                         {"nombre" : "Índice de Vulnerabilidad Social y Condiciones de Vida (IV)", "tema" : "Socioeconómico", "codigo" : "T6P7CBCWY", "orden" : 45},
+                         {"nombre" : "Índice de Concetracion de niños con mal nutrición por exceso y decil autonomo de ingreso (MN)", "tema" : "Socioeconómico", "codigo" : "Q57J886HN", "orden" : 46},
 
                         {"nombre" : "Gasto Público en Servicios Individuales de Salud Per Cápita (GPSIS)", "tema" : "Sistema de Salud", "codigo" : "75B5JR9M7", "orden" : 1},
                         {"nombre" : "Gasto Público en Servicios Colectivos de Salud Per Cápita (GPSCS)", "tema" : "Sistema de Salud", "codigo" : "GD2M23D2Q", "orden" : 2},
@@ -175,7 +176,7 @@ angular.module('app', ['ngRoute','ui.bootstrap'])
                         {"nombre" : "Tasa Estandarizada por Edad de Años de Vida Potencialmente Perdidos (TEE_AVPP)", "tema" : "Morbilidad, Bienestar y Daño en Salud", "codigo" : "4PBBHJ6NM", "orden" : 30},
                         {"nombre" : "Porcentaje AVPP región respecto de AVPP Nacional", "tema" : "Morbilidad, Bienestar y Daño en Salud", "codigo" : "Q2M63SHJ5", "orden" : 31},
                         {"nombre" : "Ranking de regiones para Porcentaje de AVPP", "tema" : "Morbilidad, Bienestar y Daño en Salud", "codigo" : "85G6TTP4Y", "orden" : 32},
-                        
+                        {"nombre" : "Tasa de incidencia anual de fiebre tifoidea y paratifoidea (CIE 10 A01.0 – A01.4)", "tema" : "Morbilidad, Bienestar y Daño en Salud", "codigo" : "N2SYCWZJB", "orden" : 33},
 
                     ];
 
