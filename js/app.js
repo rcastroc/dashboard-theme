@@ -32,7 +32,7 @@ angular.module('app', ['ngRoute','ui.bootstrap'])
                         {"nombre" : "Brecha de pobreza Mujer-Hombre", "tema" : "Socioeconómico", "codigo" : "DTWX5FZZT", "orden" : 7},
                         {"nombre" : "Brecha de pobreza Urbano-Rural", "tema" : "Socioeconómico", "codigo" : "49CYW4MKM", "orden" : 8},
                         {"nombre" : "Brecha de pobreza de personas pertenencientes a pueblos originarios-No perteneciente a pueblos originarios", "tema" : "Socioeconómico", "codigo" : "B5J86QKMH", "orden" : 9},
-                        {"nombre" : "Coeficiente de GINI de ingreso Autónomo-Monetario", "tema" : "Socioeconómico", "codigo" : "N2MDW3F3H", "orden" : 10},
+                        {"nombre" : "Coeficiente de GINI de ingreso Autónomo-Monetario", "tema" : "Socioeconómico", "codigo" : "Q7MG2CF3S", "orden" : 10},
                         {"nombre" : "Relación 20/20 de ingreso monetario", "tema" : "Socioeconómico", "codigo" : "5DNRK5WRM", "orden" : 11},
                         {"nombre" : "Porcentaje de personas desocupadas", "tema" : "Socioeconómico", "codigo" : "73QJP8MC5", "orden" : 12},
                         {"nombre" : "Brecha de desocupación M-H", "tema" : "Socioeconómico", "codigo" : "B325KXNPB", "orden" : 13},
