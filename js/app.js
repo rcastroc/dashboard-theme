@@ -3,9 +3,7 @@ angular.module('app', ['ngRoute','ui.bootstrap'])
 .config(function($routeProvider) {
    $routeProvider
     .when("/", {
-       templateUrl : "chart.html",
-       controller: "chartCtrl",
-       controllerAs: "vm",
+       templateUrl : "home.html",
     })
     .when("/:code", {
         templateUrl: "chart.html",
@@ -196,19 +194,16 @@ angular.module('app', ['ngRoute','ui.bootstrap'])
   .controller('chartCtrl', function($routeParams, $timeout, firstCode) {
     
     var vm = this;
-    vm.code =  $routeParams.code ? $routeParams.code : firstCode;
-
-    $timeout(function() {
-        var divElement = document.getElementById('viz1475702114077');                    
-        var vizElement = divElement.getElementsByTagName('object')[0];                    
-        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-        var scriptElement = document.createElement('script');                    
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    }, 500);
-
-
-
-         
+    if ($routeParams.code) {
+        vm.code =  $routeParams.code
+        $timeout(function() {
+            var divElement = document.getElementById('viz1475702114077');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        }, 500);
+    }
 
   });

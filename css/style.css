@@ -243,3 +243,27 @@
     box-shadow: none !important; 
 }
 
+.home{
+    padding-top: 0px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.home .logo{
+    padding-top: 150px;
+}
+
+.home .title{
+    font-family: 'gobCl';
+    color: #0061a7;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 50px;
+    padding-top: 35px;
+    line-height: 38px;
+}
+
+.home img.map{
+    width: 150px;
+}
+
